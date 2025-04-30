@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.border{
+  border: 1px solid red;
+}
+@media (max-width:900px){
+  .mylist{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+    background-color:rgb(252, 255, 240);
+    height: 100vh;
+    }
+    .dark .mylist{
+      background-color: black;
+      color: white;
+    }
+}
+
